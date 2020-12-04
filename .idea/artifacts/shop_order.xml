@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="shop-order">
+    <output-path>$PROJECT_DIR$/out/artifacts/shop_order</output-path>
+    <root id="archive" name="shop-order.jar" />
+  </artifact>
+</component>

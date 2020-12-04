@@ -1,0 +1,17 @@
+server:
+  port: 8889
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+#开启 Feign 对 Sentinel 的支持
+ribbon:
+  ConnectTimeout: 2000
+  ReadTimeout: 5000
+feign:
+  sentinel:
+    enabled: true
