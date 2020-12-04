@@ -16,6 +16,11 @@ public class GatewayApplication {
         SpringApplication.run(GatewayApplication.class, args);
     }
 
+    /**
+     * 熔断后跳转的方法
+     * @param request
+     * @return
+     */
     @RequestMapping("/defaultfallback2")
     public String defaultfallback(ServerHttpRequest request){
         return ">>>服务器正在更新,请稍后再试<<<";

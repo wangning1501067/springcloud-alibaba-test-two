@@ -2,16 +2,16 @@ server:
   port: 8889
 spring:
   application:
-    name: nacos-consumer
+    name: nacos-consumer #配置服务名的（spring.application.name的优先级比 eureka.instance.appname的高）
   cloud:
     nacos:
       discovery:
-        server-addr: 127.0.0.1:8848
+        server-addr: 127.0.0.1:8848 #nacos地址
 
 #开启 Feign 对 Sentinel 的支持
 ribbon:
-  ConnectTimeout: 2000
-  ReadTimeout: 5000
+  ConnectTimeout: 2000 #建立连接所用的时间
+  ReadTimeout: 5000 #建立连接后从服务器读取到可用资源所用的时间
 feign:
   sentinel:
-    enabled: true
+    enabled: true #文件打开 Sentinel 对 Feign 的支持

@@ -13,6 +13,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(@RequestParam("name")String name) throws InterruptedException {
+        //模拟熔断
         Thread.sleep(10 * 1000);
         return "Hello "+name+", this is nacos-provider message.";
     }

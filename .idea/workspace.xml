@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="152b711f-a7e1-4c26-9bff-2890f9065178" name="Default Changelist" comment="" />
+    <list default="true" id="152b711f-a7e1-4c26-9bff-2890f9065178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos/src/main/java/com/cloud/alibaba/wang/nacos/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos/src/main/java/com/cloud/alibaba/wang/nacos/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-gateway/src/main/java/com/cloud/alibaba/wang/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-gateway/src/main/java/com/cloud/alibaba/wang/gateway/GatewayApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -48,7 +55,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/nacos-gateway/src/main/java/com/cloud/alibaba/wang" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-user/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -60,11 +67,11 @@
       <recent name="com.test.wang" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\temp\springcloud-alibaba-test-two" />
       <recent name="E:\project\temp\springcloud-alibaba-test-two\cloud-user\src\main\resources" />
       <recent name="E:\project\temp\springcloud-alibaba-test-two\cloud-nacos2\src\main\resources" />
       <recent name="E:\project\temp\springcloud-alibaba-test\shop-demo\src\main\java\com\cloud\wang\demo" />
       <recent name="E:\project\temp\springcloud-alibaba-test\shop-order\src\main\resources" />
-      <recent name="E:\project\temp\springcloud-alibaba-test\shop-common\src\main\resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -218,7 +225,7 @@
       <updated>1606969756421</updated>
       <workItem from="1606969760329" duration="4000" />
       <workItem from="1606969815670" duration="12887000" />
-      <workItem from="1606982887951" duration="9033000" />
+      <workItem from="1606982887951" duration="11264000" />
     </task>
     <servers />
   </component>
@@ -349,7 +356,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/nacos-gateway/src/main/java/com/cloud/alibaba/wang/gateway/GatewayApplication.java</url>
-          <line>19</line>
+          <line>25</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
